@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --clr-primary-1: #57cc99;
+  --clr-primary-2: #01c7f2;
+  --clr-primary-4: #f4fbff;
+  --clr-primary-5: #3f3f3f;
+  --clr-secondary-1: #ffcaca;
+  --clr-secondary-2: #f4fbff;
+  --clr-light-grey: #c4c4c4;
+  --clr-search: #f7f7f7;
+  --clr-darkgrey: #838383;
+  --clr-red: #ffc1c1;
+  --transition: all 0.3s linear;
+  --spacing: 0.1rem;
+  --radius: 0.25rem;
+  --light-shadow: -4px -4px 8px #ffffff, 4px 4px 8px rgba(120, 120, 120, 0.1);
+  --shadow: 0 1px 10px rgba(0, 0, 0, 0.1);
+  --dark-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+  --max-width: 1170px;
+  --fixed-width: 620px;
+}
+body {
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+  font-size: 0.875rem;
+  background-color: #eee;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  border: none;
+  border-top: 1px solid var(--clr-grey-8);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  text-transform: capitalize;
+  line-height: 1.25;
+  margin-bottom: 0.75rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 2rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+h4 {
+  font-size: 1.25rem;
+}
+h5 {
+  font-size: 0.875rem;
+}
+p {
+  margin-bottom: 1.25rem;
+  color: var(--clr-grey-3);
+}
+@media screen and (min-width: 800px) {
+  h1 {
+    font-size: 3rem;
+  }
+  h2 {
+    font-size: 2.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 1.5rem;
+  }
+  h5 {
+    font-size: 1rem;
+  }
+  body {
+    font-size: 1rem;
+  }
+  h1,
+  h2,
+  h3,
+  h4 {
+    line-height: 1;
+  }
+}
+
+.section {
+  padding: 5rem 0;
+}
+.section2 {
+  padding: 1rem 0;
+}
+.full-width {
+  width: 100vw !important;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+.section-center {
+  width: 90vw;
+  margin: 0 auto;
+  max-width: var(--max-width);
+}
+
+@media screen and (min-width: 992px) {
+  .section-center {
+    width: 95vw;
+  }
+}
+@media screen and (min-width: 768px) {
+  :root {
+    --light-shadow: -4px -4px 8px #f0f0f0, 4px 4px 8px rgba(120, 120, 120, 0.1) !important;
+  }
+  body {
+    background-color: #ffffff;
+  }
+}

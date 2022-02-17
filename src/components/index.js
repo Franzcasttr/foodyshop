@@ -1,0 +1,11 @@
+export { default as Navbar } from './Navbar/Navbar';
+export { default as Categories } from './Categories/categories';
+export { default as CTA } from './CTA/cta';
+export { default as Ads } from './Ads/ads';
+export { default as Ads2 } from './Ads/ads2';
+export { default as Exlusive } from './Exclusive/exclusive';
+export { default as Bestoffer } from './Best/bestoffer';
+export { default as Footer } from './Footer/footer';
+export { default as Products } from './Products/products';
+export { default as Ads3 } from './Ads/ads3';
+export { default as ViewAllProducts } from './Products/viewAllProducts';
